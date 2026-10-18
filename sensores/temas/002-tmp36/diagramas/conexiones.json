@@ -1,0 +1,140 @@
+{
+  "board": "Arduino UNO R3",
+  "sensor": "TMP36 TO-92",
+  "sensor_view": "flat face toward viewer, leads downward",
+  "ports": {
+    "UNO:5V": [
+      426.61740000000003,
+      759.8
+    ],
+    "UNO:GND": [
+      447.85740000000004,
+      759.8
+    ],
+    "UNO:A0": [
+      532.8174000000001,
+      759.8
+    ],
+    "TMP36:+Vs": [
+      940,
+      710
+    ],
+    "TMP36:Vout": [
+      1005,
+      710
+    ],
+    "TMP36:GND": [
+      1070,
+      710
+    ],
+    "C1:1": [
+      1020,
+      825
+    ],
+    "C1:2": [
+      1020,
+      865
+    ]
+  },
+  "nets": {
+    "VS": [
+      "UNO:5V",
+      "TMP36:+Vs",
+      "C1:1"
+    ],
+    "SIGNAL": [
+      "UNO:A0",
+      "TMP36:Vout"
+    ],
+    "GND": [
+      "UNO:GND",
+      "TMP36:GND",
+      "C1:2"
+    ]
+  },
+  "routes": [
+    {
+      "net": "GND",
+      "points": [
+        [
+          447.85740000000004,
+          759.8
+        ],
+        [
+          447.85740000000004,
+          885
+        ],
+        [
+          1070,
+          885
+        ],
+        [
+          1070,
+          710
+        ]
+      ],
+      "color": "#243447"
+    },
+    {
+      "net": "VS",
+      "points": [
+        [
+          426.61740000000003,
+          759.8
+        ],
+        [
+          426.61740000000003,
+          825
+        ],
+        [
+          940,
+          825
+        ],
+        [
+          940,
+          710
+        ]
+      ],
+      "color": "#E03538"
+    },
+    {
+      "net": "SIGNAL",
+      "points": [
+        [
+          532.8174000000001,
+          759.8
+        ],
+        [
+          532.8174000000001,
+          795
+        ],
+        [
+          1005,
+          795
+        ],
+        [
+          1005,
+          710
+        ]
+      ],
+      "color": "#E38A00"
+    }
+  ],
+  "model_connector_ids": {
+    "5V": "connector87",
+    "GND": "connector88",
+    "A0": "connector0"
+  },
+  "source_svg_sha256": "afe553daed02db827236a54bf07943abb2ee66769293cbbc323b7429c1adb814",
+  "source_fzp_sha256": "4c294a12820dd5dc698f42454b74026c82d4735ec08621727b266fe68fc3cf7f",
+  "checks": [
+    "model terminal names match 5V/GND/A0",
+    "connector centers derived from SVG",
+    "SVG connectors have no unhandled ancestor transforms",
+    "source and destination of every wire match declared ports",
+    "distinct power, ground and output nets",
+    "bypass capacitor across VS and GND only",
+    "two incorrect wiring cases rejected"
+  ],
+  "physical_test": false
+}

@@ -40,7 +40,7 @@ Cambia 500 por 1000 en la versión ampliada y observa el ritmo. Después cambia 
 
 ## Validación
 
-Compilación y prueba en una placa física pendientes. Los comportamientos indicados son resultados esperados, no mediciones realizadas.
+Las tres versiones compilaron para `arduino:avr:uno` con Arduino CLI 1.5.1 y Arduino AVR Boards 1.8.8 el 18 de octubre de 2026. La prueba en una placa física sigue pendiente. Los comportamientos indicados son resultados esperados, no mediciones realizadas.
 
 ## Fuentes
 

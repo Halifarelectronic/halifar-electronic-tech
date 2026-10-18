@@ -6,7 +6,7 @@ Aprende programación y conexiones con prácticas pequeñas. Cada lección conti
 
 ## Disponible
 
-- [Tu primer programa y el LED integrado: tres versiones](temas/001-led-integrado/README.md). Pendiente de compilar y probar en hardware.
+- [Tu primer programa y el LED integrado: tres versiones](temas/001-led-integrado/README.md). Compilado para UNO R3; pendiente de prueba física.
 
 ## Recurso complementario
 
