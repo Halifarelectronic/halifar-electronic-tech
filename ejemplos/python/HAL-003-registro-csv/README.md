@@ -37,4 +37,4 @@ Fuente: https://docs.python.org/3/library/csv.html
 
 
 ## Continúa aprendiendo
-Encuentra más explicaciones e ideas de proyectos de **Halifar Electronic Tech**: [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380). Guarda la publicación de este tema y comparte tus resultados con nosotros.
+Encuentra más explicaciones e ideas de proyectos de **Halifar Electronic Tech**: [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/). Guarda la publicación de este tema y comparte tus resultados con nosotros.

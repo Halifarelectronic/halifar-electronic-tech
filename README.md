@@ -4,7 +4,7 @@ Recursos prácticos para llevar las ideas de nuestras publicaciones a tu mesa de
 
 **Por Ernesto Leal · Halifar Electronic Tech**
 
-[Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380)
+[Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/)
 
 ## Elige tu próximo proyecto
 
@@ -24,7 +24,7 @@ Encontrarás código comentado, instrucciones paso a paso, explicaciones y soluc
 
 ## Sigue aprendiendo con Halifar
 
-Sigue a **Halifar Electronic Tech** en [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380) para descubrir explicaciones visuales, ideas de proyectos y nuevos recursos. Guarda la publicación del tema y vuelve a esta biblioteca cuando quieras ponerlo en práctica.
+Sigue a **Halifar Electronic Tech** en [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) para descubrir explicaciones visuales, ideas de proyectos y nuevos recursos. Guarda la publicación del tema y vuelve a esta biblioteca cuando quieras ponerlo en práctica.
 
 ¿Lograste realizar un ejemplo? Cuéntanos qué construiste y qué tema te gustaría aprender después.
 
