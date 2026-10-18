@@ -31,6 +31,10 @@ La infografía HAL-003 muestra una primera versión mínima que usa `w` y sobres
 ## Problemas frecuentes
 Si Python no se reconoce, comprueba la instalación. Si el archivo está bloqueado, ciérralo en Excel. Una cabecera incompatible genera ValueError sin modificar el archivo. No está diseñado para varias escrituras simultáneas ni como almacenamiento industrial.
 
-## Validación y fuentes
+## Comprobaciones del ejemplo y fuentes
 Pruebas automáticas: creación, dos mediciones, cabecera única y rechazo de archivos incompatibles. Sin validación de hardware.
 Fuente: https://docs.python.org/3/library/csv.html
+
+
+## Continúa aprendiendo
+Encuentra más explicaciones e ideas de proyectos de **Halifar Electronic Tech**: [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380). Guarda la publicación de este tema y comparte tus resultados con nosotros.

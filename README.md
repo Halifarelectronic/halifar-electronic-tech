@@ -1,17 +1,33 @@
-# Halifar Electronic Tech · laboratorio educativo
+# Halifar Electronic Tech · aprende, conecta y programa
 
-Creación y dirección editorial: **Ernesto Leal · Halifar Electronic Tech**.
-Ejemplos didácticos de electrónica y programación con materiales, código explicado y resultados reproducibles.
+Recursos prácticos para llevar las ideas de nuestras publicaciones a tu mesa de trabajo.
 
-| Publicación | Ejemplo | Validación |
+**Por Ernesto Leal · Halifar Electronic Tech**
+
+[Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380)
+
+## Elige tu próximo proyecto
+
+| Quiero aprender a… | Recurso | Necesitas |
 |---|---|---|
-| HAL-002 | [BME280 por I²C con Arduino](ejemplos/sensores/HAL-002-bme280/README.md) | API revisada; compilación y hardware pendientes |
-| HAL-003 | [Registrar mediciones en CSV con Python](ejemplos/python/HAL-003-registro-csv/README.md) | Pruebas automáticas con datos simulados |
-| HAL-004 | Noticia sobre IA local | Sin demo de hardware ni benchmark propio |
+| Guardar mediciones sin perder el historial | [Registro CSV con Python](ejemplos/python/HAL-003-registro-csv/README.md) | Computadora con Python |
+| Leer temperatura, humedad y presión | [BME280 con Arduino](ejemplos/sensores/HAL-002-bme280/README.md) | Placa Arduino compatible y módulo BME280 |
 
-Cada carpeta usa `README.md`, `src/` y, cuando corresponde, `tests/`. Los datos de ejemplo son simulados salvo indicación expresa. Las infografías conceptuales no sustituyen un esquema eléctrico.
+## Así aprovechas cada guía
 
-## Autoría y contribuciones
-Copyright 2026 Ernesto Leal · Halifar Electronic Tech. Código educativo preparado con asistencia de IA y revisión editorial pendiente. Las dependencias conservan sus autores y licencias. La licencia general de redistribución queda pendiente de decisión del propietario; la visibilidad del repositorio no concede una licencia automáticamente.
+1. Revisa qué hace el ejemplo y los materiales.
+2. Prepara el entorno y verifica las conexiones indicadas.
+3. Ejecuta el programa y compara la salida con el resultado esperado.
+4. Modifica una parte y observa qué cambia.
 
-No se almacenan aquí claves, cuentas, configuración de servidores ni tokens de servicios.
+Encontrarás código comentado, instrucciones paso a paso, explicaciones y soluciones a errores frecuentes. Los datos de muestra están identificados como simulados. En los montajes electrónicos revisa siempre el modelo y la alimentación de tus componentes.
+
+## Sigue aprendiendo con Halifar
+
+Sigue a **Halifar Electronic Tech** en [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/100426115975380) para descubrir explicaciones visuales, ideas de proyectos y nuevos recursos. Guarda la publicación del tema y vuelve a esta biblioteca cuando quieras ponerlo en práctica.
+
+¿Lograste realizar un ejemplo? Cuéntanos qué construiste y qué tema te gustaría aprender después.
+
+## Autor y créditos
+
+© 2026 Ernesto Leal · Halifar Electronic Tech. Los créditos y fuentes técnicas aparecen en cada guía. Las bibliotecas de terceros conservan sus autores y licencias.
