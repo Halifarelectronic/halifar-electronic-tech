@@ -10,6 +10,7 @@ Recursos prácticos para llevar las ideas de nuestras publicaciones a tu mesa de
 
 | Quiero aprender a… | Recurso | Necesitas |
 |---|---|---|
+| Crear un aviso con un límite de temperatura | [Alerta básica con Python](ejemplos/python/HAL-005-alerta-temperatura/README.md) | Computadora con Python · datos simulados |
 | Guardar mediciones sin perder el historial | [Registro CSV con Python](ejemplos/python/HAL-003-registro-csv/README.md) | Computadora con Python |
 | Leer temperatura, humedad y presión | [BME280 con Arduino](ejemplos/sensores/HAL-002-bme280/README.md) | Placa Arduino compatible y módulo BME280 |
 
