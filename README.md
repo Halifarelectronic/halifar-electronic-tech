@@ -10,7 +10,6 @@ Recursos para comprender nuestras publicaciones y llevar las ideas a la práctic
 |---|---|
 | [Sensores](sensores/README.md) | Qué miden, características, conexiones y programas |
 | [Microcontroladores](microcontroladores/README.md) | Funcionamiento, características y pinouts por modelo |
-| [Noticias de electrónica](noticias-electronica/README.md) | Novedades con fuentes y contexto |
 | [Aprende Python](python/README.md) | De cero a avanzado, con tres versiones por práctica |
 | [Aprende Arduino](arduino/README.md) | Programación y montajes, con tres niveles |
 | [Crea tu app con React Native](react-native/README.md) | Una app que avanza contigo, paso a paso |
@@ -41,3 +40,4 @@ Las fuentes y créditos aparecen en cada tema. Las bibliotecas de terceros conse
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
+
