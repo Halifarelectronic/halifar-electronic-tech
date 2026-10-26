@@ -6,6 +6,8 @@ Conoce qué hace cada dispositivo, qué características importan y cómo interp
 
 ## Disponible
 
+- [Nueva lección: 002-chip-placa-computadora](temas/002-chip-placa-computadora/README.md).
+
 - [Qué es un microcontrolador](temas/001-que-es/README.md).
 
 ## Ruta de temas
@@ -30,3 +32,4 @@ El orden siguiente es el plan del recorrido. Solo los enlaces de «Disponible» 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
+
