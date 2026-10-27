@@ -1,0 +1,71 @@
+{
+  "model": "Adafruit Product ID 375, revisión de cables 2021-06-02",
+  "board": "Arduino UNO R3 A000066, ATmega328P",
+  "view": "superior, USB a la izquierda; caras largas de contacto e imán paralelas",
+  "terminals": {
+    "UNO.D2": [
+      667.4336,
+      463.04
+    ],
+    "UNO.GND": [
+      506.1504,
+      900.8
+    ],
+    "375.A": [
+      880,
+      760
+    ],
+    "375.B": [
+      925,
+      760
+    ]
+  },
+  "terminal_note": "A y B son etiquetas didácticas de los extremos libres de los dos cables, no marcas del fabricante; intercambiables, sin polaridad. El imán no tiene terminal eléctrico.",
+  "nets": [
+    {
+      "name": "CONTACTO",
+      "color": "#0077cc",
+      "from": "UNO.D2",
+      "to": "375.A",
+      "via": [
+        [
+          667.4336,
+          385
+        ],
+        [
+          805,
+          385
+        ],
+        [
+          805,
+          760
+        ]
+      ]
+    },
+    {
+      "name": "GND",
+      "color": "#243247",
+      "from": "UNO.GND",
+      "to": "375.B",
+      "via": [
+        [
+          506.1504,
+          970
+        ],
+        [
+          925,
+          970
+        ]
+      ]
+    }
+  ],
+  "power": "UNO solo USB 5 V; contacto pasivo sin VCC; pull-up interno en D2; GND común en conector88.",
+  "decoupling": "Sin IC activo externo ni VCC externo; no se requiere condensador de desacoplo externo para este contacto; se conserva el desacoplo de UNO.",
+  "sources": [
+    "https://www.adafruit.com/product/375",
+    "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf",
+    "https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/"
+  ],
+  "checked_on": "2026-10-26",
+  "physical_test": false
+}
