@@ -6,6 +6,8 @@ Cada tema explica qué mide el sensor, sus características relevantes, alimenta
 
 ## Disponible
 
+- [Elegir un sensor: contacto magnético Adafruit 375](temas/003-elegir-sensor-contacto/README.md). Montaje ilustrado y dos ejemplos compilados para UNO R3; prueba física pendiente.
+
 - [TMP36: montaje visual y tres programas](temas/002-tmp36/README.md). Compilado para UNO R3; prueba física pendiente.
 
 - [BME280: guía y programa inicial](temas/001-bme280/README.md). La compilación y el montaje físico siguen pendientes de validación; todavía no incluye un cableado para un módulo concreto.
