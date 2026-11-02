@@ -6,6 +6,8 @@ Aprende programación y conexiones con prácticas pequeñas. Cada lección conti
 
 ## Disponible
 
+- [Monitor serie en UNO R3](temas/003-monitor-serie/README.md).
+
 - [Nueva lección: 002-variables-tipos-operadores](temas/002-variables-tipos-operadores/README.md).
 
 - [Tu primer programa y el LED integrado: tres versiones](temas/001-led-integrado/README.md). Compilado para UNO R3; pendiente de prueba física.
@@ -44,4 +46,5 @@ El orden siguiente es el plan del recorrido. Solo los enlaces de «Disponible» 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
+
 

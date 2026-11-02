@@ -6,6 +6,8 @@ Curso progresivo desde cero: una idea y una práctica por tema. Cada lección de
 
 ## Disponible
 
+- [Entrada y conversiones](temas/003-entrada-conversiones/README.md).
+
 - [Nueva lección: 002-variables-tipos](temas/002-variables-tipos/README.md).
 
 - [Tu primer programa: tres versiones](temas/001-primer-programa/README.md).
@@ -47,4 +49,5 @@ El orden siguiente es el plan del recorrido. Solo los enlaces de «Disponible» 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
+
 

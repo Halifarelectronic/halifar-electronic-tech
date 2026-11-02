@@ -1,0 +1,1 @@
+Los tres sketches compilados para arduino:avr:uno con core AVR 1.8.6. Sin librerías externas. Prueba física y salida real del Monitor serie pendientes. Las salidas de la guía son esperadas, no observadas en hardware.
