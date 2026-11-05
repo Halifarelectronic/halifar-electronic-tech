@@ -1,0 +1,257 @@
+{
+  "board": "Arduino UNO R3 A000066",
+  "sensor": "Vishay TEPT4400 T-1, no módulo",
+  "orientation": "Vista frontal como dibujo 6.544-5054.01-4 issue 5: lente arriba, patillas abajo. E izquierda larga, C derecha corta antes de cortar. Para insertar, separar suavemente E a e10 y C a e11. No usar reglas de LED.",
+  "terminals": {
+    "UNO.A0": [
+      476.127,
+      764.4
+    ],
+    "UNO.5V": [
+      382.527,
+      764.4
+    ],
+    "UNO.GND": [
+      401.247,
+      764.4
+    ],
+    "BB.a10": [
+      800,
+      480
+    ],
+    "BB.b10": [
+      855,
+      480
+    ],
+    "BB.c10": [
+      910,
+      480
+    ],
+    "BB.d10": [
+      965,
+      480
+    ],
+    "BB.e10": [
+      1020,
+      480
+    ],
+    "BB.a11": [
+      800,
+      525
+    ],
+    "BB.b11": [
+      855,
+      525
+    ],
+    "BB.c11": [
+      910,
+      525
+    ],
+    "BB.d11": [
+      965,
+      525
+    ],
+    "BB.e11": [
+      1020,
+      525
+    ],
+    "BB.a12": [
+      800,
+      570
+    ],
+    "BB.b12": [
+      855,
+      570
+    ],
+    "BB.c12": [
+      910,
+      570
+    ],
+    "BB.d12": [
+      965,
+      570
+    ],
+    "BB.e12": [
+      1020,
+      570
+    ],
+    "BB.a13": [
+      800,
+      615
+    ],
+    "BB.b13": [
+      855,
+      615
+    ],
+    "BB.c13": [
+      910,
+      615
+    ],
+    "BB.d13": [
+      965,
+      615
+    ],
+    "BB.e13": [
+      1020,
+      615
+    ],
+    "BB.a14": [
+      800,
+      660
+    ],
+    "BB.b14": [
+      855,
+      660
+    ],
+    "BB.c14": [
+      910,
+      660
+    ],
+    "BB.d14": [
+      965,
+      660
+    ],
+    "BB.e14": [
+      1020,
+      660
+    ],
+    "BB.a15": [
+      800,
+      705
+    ],
+    "BB.b15": [
+      855,
+      705
+    ],
+    "BB.c15": [
+      910,
+      705
+    ],
+    "BB.d15": [
+      965,
+      705
+    ],
+    "BB.e15": [
+      1020,
+      705
+    ],
+    "Q.E": [
+      1020,
+      480
+    ],
+    "Q.C": [
+      1020,
+      525
+    ],
+    "R.1": [
+      910,
+      525
+    ],
+    "R.2": [
+      910,
+      705
+    ]
+  },
+  "breadboard": "Solo a-e, cada fila 10..15 une sus cinco agujeros. Filas distintas aisladas. Sin rieles de alimentación.",
+  "components": {
+    "Q": {
+      "E": "e10",
+      "C": "e11"
+    },
+    "R1": {
+      "value": "10 kohm 1% 0.25 W",
+      "ends": [
+        "c11",
+        "c15"
+      ]
+    }
+  },
+  "nets": {
+    "GND": [
+      "UNO.GND",
+      "BB.a10",
+      "Q.E"
+    ],
+    "SENAL": [
+      "UNO.A0",
+      "BB.a11",
+      "Q.C",
+      "R.1"
+    ],
+    "5V": [
+      "UNO.5V",
+      "BB.a15",
+      "R.2"
+    ]
+  },
+  "wires": [
+    {
+      "net": "5V",
+      "color": "#d53332",
+      "from": "UNO.5V",
+      "to": "BB.a15",
+      "via": [
+        [
+          382.527,
+          850
+        ],
+        [
+          750,
+          850
+        ],
+        [
+          750,
+          705
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "color": "#243247",
+      "from": "UNO.GND",
+      "to": "BB.a10",
+      "via": [
+        [
+          401.247,
+          900
+        ],
+        [
+          710,
+          900
+        ],
+        [
+          710,
+          480
+        ]
+      ]
+    },
+    {
+      "net": "A0",
+      "color": "#0077cc",
+      "from": "UNO.A0",
+      "to": "BB.a11",
+      "via": [
+        [
+          476.127,
+          805
+        ],
+        [
+          670,
+          805
+        ],
+        [
+          670,
+          525
+        ]
+      ]
+    }
+  ],
+  "power": "Solo USB de datos al UNO; sin VIN ni fuente adicional. R1 limita corriente del sensor a 0.5 mA a 5 V. A0 permanece entre GND y 5 V. No hay salida lógica del sensor.",
+  "decoupling": "Fototransistor pasivo y resistencia, sin IC externo alimentado. Se conserva desacoplo original del UNO; sin condensador externo necesario para esta práctica lenta.",
+  "sources": [
+    "https://www.vishay.com/docs/81341/tept4400.pdf",
+    "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf"
+  ],
+  "physical_test": false,
+  "checked_on": "2026-11-05"
+}
