@@ -17,6 +17,12 @@ El proyecto evolucionará sobre una sola base. Los temas enlazarán el estado an
 
 Cada avance ejecutable incluirá sus versiones de herramientas, dependencias fijadas, comandos, capturas y una explicación de los cambios. No se indicará compatibilidad con un dispositivo sin validarla.
 
+## Snapshots de lógica disponibles
+
+- [Datos iniciales](../temas/002-logica-javascript/README.md).
+- [Funciones y objetos](../temas/003-funciones-objetos/README.md).
+- [Arreglos y operaciones con datos](../temas/004-arreglos-datos/README.md). Node.js 22.23.3, sin interfaz móvil; conserva el hito anterior.
+
 ## Sigue aprendiendo
 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)

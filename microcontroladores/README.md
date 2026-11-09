@@ -6,6 +6,8 @@ Conoce qué hace cada dispositivo, qué características importan y cómo interp
 
 ## Disponible
 
+- [UNO R3: dos chips, dos tareas](temas/004-arquitectura-uno-r3/README.md).
+
 - [Cómo leer alias del pinout del UNO R3](temas/003-leer-pinout/README.md).
 
 - [Nueva lección: 002-chip-placa-computadora](temas/002-chip-placa-computadora/README.md).
@@ -34,5 +36,3 @@ El orden siguiente es el plan del recorrido. Solo los enlaces de «Disponible» 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
-
-

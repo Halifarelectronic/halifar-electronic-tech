@@ -8,6 +8,8 @@ Proyecto conductor: **Mi laboratorio**, una app para consultar fichas de compone
 
 ## Disponible
 
+- [Mi laboratorio: una lista de fichas](temas/004-arreglos-datos/README.md). Snapshot de consola ejecutado; sin interfaz móvil.
+
 - [Mi laboratorio: funciones y objetos](temas/003-funciones-objetos/README.md). Snapshot de consola ejecutado; aún sin app móvil.
 
 - [Nueva lección: 002-logica-javascript](temas/002-logica-javascript/README.md).
@@ -56,5 +58,3 @@ El orden siguiente es el plan del recorrido. Solo los enlaces de «Disponible» 
 [Instagram](https://www.instagram.com/halifarelectronictech/) · [Facebook](https://www.facebook.com/halifarelectronictech/) · [Biblioteca](https://github.com/Halifarelectronic/halifar-electronic-tech)
 
 © 2026 Ernesto Leal · Halifar Electronic Tech.
-
-

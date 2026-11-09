@@ -1,0 +1,86 @@
+{
+  "board": "Arduino UNO R3 A000066, PDIP-28",
+  "switch": "Alps Alpine SKHHAMA010",
+  "switch_view": "Superior según dibujo oficial: 1 arriba izquierda, 2 arriba derecha, 3 abajo izquierda, 4 abajo derecha.",
+  "terminals": {
+    "UNO.D2": [
+      545.6471,
+      369.44
+    ],
+    "UNO.GND": [
+      409.5644,
+      738.8
+    ],
+    "SW.1": [
+      830,
+      480
+    ],
+    "SW.2": [
+      1130,
+      480
+    ],
+    "SW.3": [
+      830,
+      680
+    ],
+    "SW.4": [
+      1130,
+      680
+    ]
+  },
+  "internal_nets_open": [
+    [
+      "SW.1",
+      "SW.2"
+    ],
+    [
+      "SW.3",
+      "SW.4"
+    ]
+  ],
+  "closed_switch": "Al pulsar se unen ambos grupos.",
+  "wires": [
+    {
+      "net": "SENAL",
+      "color": "#0085b5",
+      "from": "UNO.D2",
+      "to": "SW.1",
+      "via": [
+        [
+          720,
+          369.44
+        ],
+        [
+          720,
+          480
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "color": "#22364a",
+      "from": "UNO.GND",
+      "to": "SW.3",
+      "via": [
+        [
+          409.5644,
+          845
+        ],
+        [
+          760,
+          845
+        ],
+        [
+          760,
+          680
+        ]
+      ]
+    }
+  ],
+  "power": "Solo USB al UNO. Ningún cable externo de 5V. D2 INPUT_PULLUP; LED_BUILTIN como OUTPUT solo nivel 3.",
+  "decoupling": "Pulsador pasivo sin alimentación adicional; desacoplo original de UNO conservado.",
+  "source_switch": "https://tech.alpsalpine.com/e/products/detail/SKHHAMA010/",
+  "source_board": "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf",
+  "verification": "Revisión documental de terminales, conexiones internas, redes y código; sin corto permanente 5V-GND. Prueba física pendiente.",
+  "license": "CC BY-SA 3.0; placa Fritzing arduino_Uno_Rev3, althaus versión 5, conservada como vector."
+}

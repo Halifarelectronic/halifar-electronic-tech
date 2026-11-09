@@ -1,0 +1,2 @@
+v22.23.3
+4 comprobaciones correctas: snapshot, vacío/map, vacío/join y una ficha.

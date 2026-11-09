@@ -1,0 +1,100 @@
+{
+  "python": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+  "cases": [
+    {
+      "level": 1,
+      "variants": {},
+      "stdout": "14 20\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 1,
+      "variants": {
+        "3 * 4": "3 * 0",
+        "3) * 4": "3) * 0"
+      },
+      "stdout": "2 0\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 2,
+      "variants": {},
+      "stdout": "3\n2\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 2,
+      "variants": {
+        "piezas = 17": "piezas = 20"
+      },
+      "stdout": "4\n0\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 2,
+      "variants": {
+        "piezas = 17": "piezas = 0"
+      },
+      "stdout": "0\n0\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 2,
+      "variants": {
+        "piezas = 17": "piezas = -17"
+      },
+      "stdout": "-4\n3\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 3,
+      "variants": {},
+      "stdout": "3.4\nFalse\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 3,
+      "variants": {
+        "piezas = 17": "piezas = 20"
+      },
+      "stdout": "4.0\nTrue\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 3,
+      "variants": {
+        "piezas = 17": "piezas = 0"
+      },
+      "stdout": "0.0\nTrue\n",
+      "exit_code": 0,
+      "expected_error": null,
+      "passed": true
+    },
+    {
+      "level": 3,
+      "variants": {
+        "capacidad = 5": "capacidad = 0"
+      },
+      "stdout": "",
+      "exit_code": 1,
+      "expected_error": "ZeroDivisionError",
+      "passed": true
+    }
+  ]
+}
