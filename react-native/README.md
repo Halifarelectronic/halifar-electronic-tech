@@ -8,6 +8,8 @@ Proyecto conductor: **Mi laboratorio**, una app para consultar fichas de compone
 
 ## Disponible
 
+- [Mi laboratorio: promesas y espera](temas/005-promesas/README.md).
+
 - [Mi laboratorio: una lista de fichas](temas/004-arreglos-datos/README.md). Snapshot de consola ejecutado; sin interfaz móvil.
 
 - [Mi laboratorio: funciones y objetos](temas/003-funciones-objetos/README.md). Snapshot de consola ejecutado; aún sin app móvil.

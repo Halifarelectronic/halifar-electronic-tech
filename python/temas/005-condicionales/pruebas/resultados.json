@@ -1,0 +1,158 @@
+{
+  "python": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+  "cases": [
+    {
+      "level": 1,
+      "input": "",
+      "expected": "Umbral alcanzado",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Umbral alcanzado\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "17",
+      "expected": "Frío",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada: Frío\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "18",
+      "expected": "Normal",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada: Normal\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "28",
+      "expected": "Normal",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada: Normal\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "29",
+      "expected": "Calor",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada: Calor\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "18.5",
+      "expected": "Normal",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada: Normal\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "-1",
+      "expected": "Fuera de rango",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Fuera de rango\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "0",
+      "expected": "Frío",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Frío\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "18",
+      "expected": "Normal",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Normal\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "28",
+      "expected": "Normal",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Normal\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "50",
+      "expected": "Calor",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Calor\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "51",
+      "expected": "Fuera de rango",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Fuera de rango\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "nan",
+      "expected": "Fuera de rango",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Fuera de rango\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "inf",
+      "expected": "Fuera de rango",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Fuera de rango\n",
+      "stderr": ""
+    },
+    {
+      "level": 3,
+      "input": "-inf",
+      "expected": "Fuera de rango",
+      "passed": true,
+      "exit_code": 0,
+      "stdout": "Temperatura simulada (0 a 50): Fuera de rango\n",
+      "stderr": ""
+    },
+    {
+      "level": 2,
+      "input": "texto",
+      "expected": "ValueError",
+      "passed": true,
+      "exit_code": 1,
+      "stdout": "Temperatura simulada: ",
+      "stderr": "Traceback (most recent call last):\n  File \"nivel-2/main.py\", line 2, in <module>\n    temperatura = float(input(\"Temperatura simulada: \"))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: 'texto'\n"
+    },
+    {
+      "level": 3,
+      "input": "texto",
+      "expected": "ValueError",
+      "passed": true,
+      "exit_code": 1,
+      "stdout": "Temperatura simulada (0 a 50): ",
+      "stderr": "Traceback (most recent call last):\n  File \"nivel-3/main.py\", line 2, in <module>\n    temperatura = float(input(\"Temperatura simulada (0 a 50): \"))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: 'texto'\n"
+    }
+  ]
+}

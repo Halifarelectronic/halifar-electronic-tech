@@ -6,6 +6,8 @@ Curso progresivo desde cero: una idea y una práctica por tema. Cada lección de
 
 ## Disponible
 
+- [Python: condicionales](temas/005-condicionales/README.md).
+
 - [Python: operadores y expresiones](temas/004-operadores-expresiones/README.md).
 
 - [Entrada y conversiones](temas/003-entrada-conversiones/README.md).

@@ -6,6 +6,8 @@ Aprende programación y conexiones con prácticas pequeñas. Cada lección conti
 
 ## Disponible
 
+- [Arduino: decisiones con el LED integrado](temas/005-condicionales/README.md).
+
 - [Pulsadores: leer sin entrada flotante](temas/004-entradas-pulsadores/README.md).
 
 - [Monitor serie en UNO R3](temas/003-monitor-serie/README.md).

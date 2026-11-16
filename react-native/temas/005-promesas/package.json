@@ -1,0 +1,12 @@
+{
+  "name": "mi-laboratorio-promesas",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "22.23.3"
+  },
+  "scripts": {
+    "start": "node src/fichas.cjs",
+    "test": "node --test pruebas/fichas.test.cjs"
+  }
+}

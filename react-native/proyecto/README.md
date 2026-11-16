@@ -19,6 +19,8 @@ Cada avance ejecutable incluirá sus versiones de herramientas, dependencias fij
 
 ## Snapshots de lógica disponibles
 
+- [Promesas y espera](../temas/005-promesas/README.md). Datos locales simulados; éxito y error comprobados en Node.js 22.23.3, sin interfaz móvil.
+
 - [Datos iniciales](../temas/002-logica-javascript/README.md).
 - [Funciones y objetos](../temas/003-funciones-objetos/README.md).
 - [Arreglos y operaciones con datos](../temas/004-arreglos-datos/README.md). Node.js 22.23.3, sin interfaz móvil; conserva el hito anterior.

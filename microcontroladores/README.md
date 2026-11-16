@@ -6,6 +6,8 @@ Conoce qué hace cada dispositivo, qué características importan y cómo interp
 
 ## Disponible
 
+- [UNO R3: entradas, salidas y niveles lógicos](temas/005-niveles-logicos/README.md).
+
 - [UNO R3: dos chips, dos tareas](temas/004-arquitectura-uno-r3/README.md).
 
 - [Cómo leer alias del pinout del UNO R3](temas/003-leer-pinout/README.md).

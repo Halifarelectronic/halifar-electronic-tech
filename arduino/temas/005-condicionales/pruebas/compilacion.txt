@@ -1,0 +1,22 @@
+Arduino AVR 1.8.6, arduino:avr:uno. Sin bibliotecas adicionales.
+Prueba física y ejecución en placa pendientes. No se ejecutó simulador eléctrico.
+[
+  {
+    "level": 1,
+    "exit_code": 0,
+    "stdout": "Sketch uses 1728 bytes (5%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 184 bytes (8%) of dynamic memory, leaving 1864 bytes for local variables. Maximum is 2048 bytes.\n",
+    "stderr": ""
+  },
+  {
+    "level": 2,
+    "exit_code": 0,
+    "stdout": "Sketch uses 1762 bytes (5%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 184 bytes (8%) of dynamic memory, leaving 1864 bytes for local variables. Maximum is 2048 bytes.\n",
+    "stderr": ""
+  },
+  {
+    "level": 3,
+    "exit_code": 0,
+    "stdout": "Sketch uses 1890 bytes (5%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 224 bytes (10%) of dynamic memory, leaving 1824 bytes for local variables. Maximum is 2048 bytes.\n",
+    "stderr": ""
+  }
+]
