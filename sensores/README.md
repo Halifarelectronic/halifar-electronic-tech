@@ -6,6 +6,8 @@ Cada tema explica qué mide el sensor, sus características relevantes, alimenta
 
 ## Disponible
 
+- [Distancia por tiempo de vuelo: Pololu 2490 y UNO R3](temas/006-distancia-vl53l0x/README.md). Montaje ilustrado y programa compilado; prueba física pendiente. La guía PIR anterior sigue pendiente.
+
 - [Señales analógicas y digitales: luz y umbral con TEPT4400](temas/004-senales-luz/README.md). Montaje ilustrado con redes y dos programas compilados para UNO R3; prueba física pendiente.
 
 - [Elegir un sensor: contacto magnético Adafruit 375](temas/003-elegir-sensor-contacto/README.md). Montaje ilustrado y dos ejemplos compilados para UNO R3; prueba física pendiente.

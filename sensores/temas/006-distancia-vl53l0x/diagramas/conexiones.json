@@ -1,0 +1,177 @@
+{
+  "board": "Arduino UNO R3 A000066, vista superior, USB izquierda",
+  "sensor": "Pololu 2490 VL53L0X, PCB irs11a, vista superior, fila de terminales izquierda",
+  "terminals": {
+    "UNO.5V": [
+      390.1244,
+      778.8
+    ],
+    "UNO.GND": [
+      409.5644,
+      778.8
+    ],
+    "UNO.A4": [
+      565.0844,
+      778.8
+    ],
+    "UNO.A5": [
+      584.5244,
+      778.8
+    ],
+    "SEN.VDD": [
+      911.75,
+      391.75
+    ],
+    "SEN.VIN": [
+      911.75,
+      455.25
+    ],
+    "SEN.GND": [
+      911.75,
+      518.75
+    ],
+    "SEN.SDA": [
+      911.75,
+      582.25
+    ],
+    "SEN.SCL": [
+      911.75,
+      645.75
+    ],
+    "SEN.XSHUT": [
+      911.75,
+      709.25
+    ],
+    "SEN.GPIO1": [
+      911.75,
+      772.75
+    ]
+  },
+  "wires": [
+    {
+      "net": "5V",
+      "color": "#d43c37",
+      "source": "UNO.5V",
+      "target": "SEN.VIN",
+      "points": [
+        [
+          390.1244,
+          778.8
+        ],
+        [
+          390.1244,
+          890
+        ],
+        [
+          710,
+          890
+        ],
+        [
+          710,
+          455.25
+        ],
+        [
+          911.75,
+          455.25
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "color": "#243548",
+      "source": "UNO.GND",
+      "target": "SEN.GND",
+      "points": [
+        [
+          409.5644,
+          778.8
+        ],
+        [
+          409.5644,
+          925
+        ],
+        [
+          745,
+          925
+        ],
+        [
+          745,
+          518.75
+        ],
+        [
+          911.75,
+          518.75
+        ]
+      ]
+    },
+    {
+      "net": "SDA",
+      "color": "#007dbe",
+      "source": "UNO.A4",
+      "target": "SEN.SDA",
+      "points": [
+        [
+          565.0844,
+          778.8
+        ],
+        [
+          565.0844,
+          960
+        ],
+        [
+          780,
+          960
+        ],
+        [
+          780,
+          582.25
+        ],
+        [
+          911.75,
+          582.25
+        ]
+      ]
+    },
+    {
+      "net": "SCL",
+      "color": "#bd8500",
+      "source": "UNO.A5",
+      "target": "SEN.SCL",
+      "points": [
+        [
+          584.5244,
+          778.8
+        ],
+        [
+          584.5244,
+          995
+        ],
+        [
+          815,
+          995
+        ],
+        [
+          815,
+          645.75
+        ],
+        [
+          911.75,
+          645.75
+        ]
+      ]
+    }
+  ],
+  "unconnected": [
+    "SEN.VDD",
+    "SEN.XSHUT",
+    "SEN.GPIO1"
+  ],
+  "power": "Solo USB al UNO; 5V a VIN; GND común; I2C a 100 kHz, niveles VIN=5V. No alimentar VDD.",
+  "decoupling": "Desacoplo integrado en ambas placas; C1 y C3 1uF, C2 y C5 0.1uF, C4 4.7uF en esquema Pololu. Sin condensadores externos ni protoboard.",
+  "sources": [
+    "https://www.pololu.com/product/2490",
+    "https://www.pololu.com/file/0J1194/vl53l0x-vl53l1x-vl53l3cx-vl53l4cd-carrier-dimension-diagram.pdf",
+    "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf"
+  ],
+  "physical_test": false
+}
